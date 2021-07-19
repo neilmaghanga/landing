@@ -16,6 +16,8 @@ body {
 }
 .column {
     float: left;
+    padding: 0 2vw;
+    margin: 0 0 .75rem 0;
 }
 
 .small-12 {
@@ -31,6 +33,10 @@ footer {
 footer h2 {
     text-transform: uppercase;
     margin: 1rem 0 .3rem 0;
+}
+
+footer img {
+    width: 50px;
 }
 
 .clearfix:after {
