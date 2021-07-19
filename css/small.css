@@ -24,6 +24,11 @@ body {
     width: 100%;
 }
 
+.limited {
+    max-width: 880px;
+    margin: auto;
+}
+
 footer {
     background-color: #121212;
     color: #f9f9f9;
