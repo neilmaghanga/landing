@@ -9,6 +9,10 @@
         width: 50%;
     }
 
+    nav button {
+        display: none;
+    }
+
     header img {
         height: 100px;
     }
