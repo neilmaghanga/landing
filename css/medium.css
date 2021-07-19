@@ -13,6 +13,14 @@
         display: none;
     }
 
+    nav ul {
+        display: none;
+    }
+
+    nav li {
+        float: right;
+    }
+
     header img {
         height: 100px;
     }
