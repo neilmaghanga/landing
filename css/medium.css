@@ -8,4 +8,8 @@
     .medium-6 {
         width: 50%;
     }
+
+    header img {
+        height: 100px;
+    }
 }

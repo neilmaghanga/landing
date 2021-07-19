@@ -29,6 +29,19 @@ body {
     margin: auto;
 }
 
+/*header rules*/
+header {
+    background-color: #121212;
+}
+
+header img {
+    float: left;
+    height: 75px;
+    margin: 10px 5px 0 5px;
+}
+
+
+/*footer rules*/
 footer {
     background-color: #121212;
     color: #f9f9f9;
