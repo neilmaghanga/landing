@@ -5,5 +5,7 @@
         box-sizing: border-box;
     }
 
-    
+    .large-3 {
+        width: 25%;
+    }
 }

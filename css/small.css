@@ -10,7 +10,31 @@ body {
     font-weight: 300;
 }
 
+/*grid rules*/
+.row {
+    clear: both;
+}
+.column {
+    float: left;
+}
+
+.small-12 {
+    width: 100%;
+}
+
 footer {
     background-color: #121212;
+    color: #f9f9f9;
     font-size: 1.2rem;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    margin: 1rem 0 .3rem 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
