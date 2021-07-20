@@ -69,24 +69,27 @@ button#hamburgerBtn {
 }
 
 nav {
-    background-color: #151515;
+    background-color: #171717;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
-    display: none;
 }
 
 nav ul.open {
     display: block;
 }
 
-nav li {
+nav ul {
+    display: none;
+}
+
+nav ul li {
     list-style-type: none;
 }
 nav li.active {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 nav a {
@@ -112,6 +115,10 @@ footer {
 footer h2 {
     text-transform: uppercase;
     margin: 1rem 0 .3rem 0;
+}
+
+footer ul {
+    list-style-type: none;
 }
 
 footer img {
