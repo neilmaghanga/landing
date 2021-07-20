@@ -19,13 +19,28 @@ main img {
 }
 
 main h1 {
+    background-color: #171717;
     margin: .5rem 0 .1rem 0;
+    padding: 10px;
     font-size: 2rem;
     text-transform: capitalize;
 }
 
-.labeled h6, labeled p {
+.labeled h6, .labeled p {
     background-color: #171717;
+    margin: 0;
+    width: 100%;
+    padding: .3rem 1rem;
+}
+
+.labeled h6 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.labeled p {
+    font-weight: 700;
+    color: #fafafa;
 }
 
 /*grid rules*/
