@@ -27,20 +27,31 @@ main h1 {
 }
 
 .labeled h6, .labeled p {
-    background-color: #171717;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.7);
     margin: 0;
-    width: 100%;
+    width: auto;
     padding: .3rem 1rem;
 }
 
+.labeled {
+    position: relative;
+}
+
 .labeled h6 {
+    top: 0;
     font-size: 2rem;
     font-weight: 300;
 }
 
 .labeled p {
     font-weight: 700;
+    bottom: 0;
     color: #fafafa;
+}
+
+.products img {
+    cursor: pointer;
 }
 
 /*grid rules*/
