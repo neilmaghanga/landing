@@ -68,6 +68,10 @@ main h1 {
     width: 100%;
 }
 
+.small-6 {
+    width: 50%;
+}
+
 
 .limited {
     max-width: 880px;
