@@ -13,54 +13,57 @@ body {
     color: #f9f9f9;
 }
 
-main img {
-    width: 100%;
-    height: auto;
-}
+main {
+    img {
+        width: 100%;
+        height: auto;
+    }
 
-main h1, main h3 {
-    margin: .5rem 0 .1rem 0;
-    padding: 10px;
-    text-transform: capitalize;
-}
+    h1, main h3 {
+        margin: .5rem 0 .1rem 0;
+        padding: 10px;
+        text-transform: capitalize;
+    }
 
-main h1 {
-    background-color: #171717;
-    font-size: 2rem;
-}
+    h1 {
+        background-color: #171717;
+        font-size: 2rem;
+    }
 
-main h3 {
-    font-size: 1.2rem;
-}
+    h3 {
+        font-size: 1.2rem;
+    }
 
-main p {
-    font-size: 1.2rem;
-    margin: 0 0 .3rem 0;
-}
-
-
-.labeled h6, .labeled p {
-    position: absolute;
-    background-color: rgba(0,0,0, 0.7);
-    margin: 0;
-    width: auto;
-    padding: .3rem 1rem;
+    p {
+        font-size: 1.2rem;
+        margin: 0 0 .3rem 0;
+    }
 }
 
 .labeled {
     position: relative;
-}
 
-.labeled h6 {
-    top: 0;
-    font-size: 2rem;
-    font-weight: 300;
-}
+    h6, p {
+        position: absolute;
+        background-color: rgba(0,0,0, 0.7);
+        margin: 0;
+        width: auto;
+        padding: .3rem 1rem;
+    }
 
-.labeled p {
-    font-weight: 700;
-    bottom: 0;
-    color: #fafafa;
+    h6 {
+        top: 0;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    p {
+        font-weight: 700;
+        bottom: 0;
+        color: #fafafa;
+    }
+    
+
 }
 
 .products img {
@@ -95,30 +98,31 @@ main p {
 header {
     background-color: $primaryColor;
     height: 120px;
+
+    img {
+        float: left;
+        height: 50px;
+        margin: 10px 5px 0 5px;
+        cursor: pointer;
+    }
+
+    h1, h2 {
+        margin: 0;
+        color: #f9f9f9;
+        font-weight: 300;
+    }
+
+    h1 {
+        padding: .8rem 0 0 0;
+    }
+
+    h2 {
+        padding: .2rem 0 0 0;
+        font-size: 1.05rem;
+    }
+
 }
 
-header img {
-    float: left;
-    height: 50px;
-    margin: 10px 5px 0 5px;
-    cursor: pointer;
-}
-
-
-header h1, header h2 {
-    margin: 0;
-    color: #f9f9f9;
-    font-weight: 300;
-}
-
-header h1 {
-    padding: .8rem 0 0 0;
-}
-
-header h2 {
-    padding: .2rem 0 0 0;
-    font-size: 1.05rem;
-}
 
 button#hamburgerBtn {
     background: none;
@@ -131,60 +135,63 @@ button#hamburgerBtn {
 
 nav {
     background-color: $secondaryColor;
-}
 
-nav ul {
-    margin: 0;
-    padding: 0;
-}
+    ul {
+        margin: 0;
+        padding: 0;
+    }
 
-nav ul.open {
-    display: block;
-}
+    ul.open {
+        display: block;
+    }
 
-nav ul {
-    display: none;
-}
+    ul {
+        display: none;
+    }
 
-nav ul li {
-    list-style-type: none;
-}
-nav li.active {
-    background-color: rgba(0, 0, 0, 0.2);
-}
+    ul li {
+        list-style-type: none;
+    }
 
-nav a {
-    display: block;
-    color: #f9f9f9;
-    padding: .8rem 0;
-    text-align: center;
-    text-decoration: none;
-}
+    li.active {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
 
-nav a:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
+    a {
+        display: block;
+        color: #f9f9f9;
+        padding: .8rem 0;
+        text-align: center;
+        text-decoration: none;
+    }
 
+    a:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}
 
 /*footer rules*/
 footer {
     background-color: $primaryColor;
     color: #f9f9f9;
     font-size: 1.2rem;
+
+
+    h2 {
+        text-transform: uppercase;
+        margin: 1rem 0 .3rem 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    img {
+        width: 50px;
+    }
+
 }
 
-footer h2 {
-    text-transform: uppercase;
-    margin: 1rem 0 .3rem 0;
-}
-
-footer ul {
-    list-style-type: none;
-}
-
-footer img {
-    width: 50px;
-}
 
 .clearfix:after {
     content: "";
