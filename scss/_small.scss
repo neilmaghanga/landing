@@ -5,7 +5,7 @@
 }    
 
 body {
-    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    background-image: linear-gradient(147deg, $utility 0%, $accent 74%);
     /* 147deg, #000000 0%, #121212 74% */
     font-family: monospace, sans-serif;
     font-size: 16px;
@@ -93,7 +93,7 @@ main p {
 
 /*header rules*/
 header {
-    background-color: #121212;
+    background-color: $primaryColor;
     height: 120px;
 }
 
@@ -130,7 +130,7 @@ button#hamburgerBtn {
 }
 
 nav {
-    background-color: #171717;
+    background-color: $secondaryColor;
 }
 
 nav ul {
@@ -168,7 +168,7 @@ nav a:hover {
 
 /*footer rules*/
 footer {
-    background-color: #121212;
+    background-color: $primaryColor;
     color: #f9f9f9;
     font-size: 1.2rem;
 }
